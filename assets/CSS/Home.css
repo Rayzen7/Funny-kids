@@ -1,0 +1,650 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(5%);
+    }
+    25%{
+        transform: translateY(-5%);
+    }
+    50%{
+        transform: translateY(5%);
+    }
+    75%{
+        transform: translateY(-5%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+body {
+    background-color: #2AABE4;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar-container {
+    width: 95%;
+    height: 9vh;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+.navbar-container i {
+    display: none;
+}
+
+.navbar-container h1 {
+    font-size: 22px;
+}
+
+.navbar-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.navbar-container ul li {
+    list-style: none;
+    transition: all 0.3s;
+}
+
+.navbar-container ul li a {
+    text-decoration: none;
+    color: #737373;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn-container p {
+    font-size: 14px;
+    color: #737373;
+}
+
+.btn-container button {
+    outline: none;
+    border: none;
+    background: rgb(64,64,64);
+    background: linear-gradient(130deg, rgba(64,64,64,1) 15%, rgba(130,130,130,1) 89%);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* hovering */
+.navbar-container ul li:hover,
+.navbar-container ul li:focus {
+    transform: scale(90%);
+}
+
+.navbar-container ul li a:hover,
+.navbar-container ul li a:focus {
+    color: black;
+}
+/* Navbar end */
+
+/* Home */
+.home {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.home-text h1 {
+    font-size: 35px;
+}
+
+.home-text p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.home img {
+    width: 1200px;
+    height: auto;
+    margin-top: -20px;
+}
+/* Home end */
+
+/* About start */
+.about {
+    background-color: #E7FAFF;
+    margin-top: -340px;
+    position: relative;
+    z-index: -2;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container img {
+    width: 500px;
+    height: auto;
+}
+
+.about-text {
+    color: #04162F;
+    margin-top: -80px;
+}
+
+.about-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    width: 600px;
+    font-size: 18px;
+}
+/* About end */
+
+/* Learning */
+.value {
+    background-color: #7DC331;
+    margin-top: -20px;
+    width: 100%;
+    height: 190vh;
+    color: white;
+    padding-top: 20px;
+}
+
+.core h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.core-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    animation: infinite 9s bounce;
+}
+
+.core-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.core-container img {
+    width: 130px;
+}
+
+.core-container p {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.learning {
+    margin-top: 130px;
+}
+
+.learning h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+.learning-flex {
+    margin-top: 20px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.learning-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.learning-container img {
+    width: 320px;
+    height: auto;
+}
+
+.learning-container p {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* hovering */
+.learning-container:hover {
+    transform: scale(90%);
+    opacity: 90%;
+}
+/* Learning end */
+
+/* Testimonials */
+.testimonial {
+    width: 100%;
+    background-color: #E7FAFF;
+    height: 150vh;
+    color: #07005D;
+}
+
+.testimonial-text {
+    padding: 55px 0 0 110px;
+}
+
+.testimonial-text h1 {
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.testimonial-text p {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.testimonial-flex {
+    margin-top: 50px;
+    gap: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonial-comment {
+    background-color: #B7EBFF;
+    font-weight: 550;
+    width: 400px;
+    gap: 30px;
+    height: 450px;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+    padding-top: 50px;
+}
+
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.testimonial-user img {
+    width: 80px;
+    height: auto;
+}
+/* Testimonial end */
+
+/* Footer Start */
+.footer {
+    background-color: #171717;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #171717;
+    color: white;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: start;
+    gap: 90px;
+    padding-top: 80px;
+}
+
+.tentang-kami h3 {
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.tentang-kami p {
+    font-size: 13px;
+    width: 250px;
+    margin: 10px 0 50px 0;
+}
+
+.tentang-kami-icon {
+    color: white;
+    font-size: 18px;
+}
+
+.tentang-kami-icon i {
+    background-color: #2C2C2C;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.layanan-kami h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 450;
+    font-size: 25px;
+}
+
+.layanan-kami p {
+    font-size: 13px;
+    margin: 10px 0 10px 0;
+}
+
+.Halaman-website h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 450;
+    font-size: 25px;
+}
+
+.Halaman-website ul li {
+    list-style: none;
+    color: #737373;
+    font-size: 13px;
+    margin: 10px 0 10px 0;
+}
+
+.Kirim-kami h3 {
+    font-size: 25px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 450;
+}
+
+.Kirim-kami p {
+    font-size: 13px;
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+
+.email-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-btn input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #2C2C2C;
+    outline: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.email-btn button {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #FDD213;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer p {
+    font-size: 15px;
+    color: #2C2C2C;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+/* Footer end */
+
+/* phone */
+@media (min-width: 320px) and (max-width: 767px) {
+    /* navbar */
+    .navbar-container {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .navbar-container ul {
+        position: absolute;
+        background-color: white;
+        flex-direction: column;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        align-items: start;
+        padding-left: 50px;
+        justify-content: start;
+        padding-top: 150px;
+        z-index: -1;
+        transition: all 1s;
+    }
+
+    .ul {
+        right: -300%;
+        position: absolute;
+    }
+
+    .btn-container {
+        position: absolute;
+        transition: all 1s;
+        right: -300%;
+        top: 790%;
+    }
+
+    .navbar-container i {
+        display: block;
+    }
+
+    .ul.active {
+        right: 0;
+        z-index: -1;
+    }
+
+    .btn-container.active {
+        right: 5%;
+    }
+
+    /* Home */
+    .home {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 105vh;
+        padding-bottom: 360px;
+        
+    }
+
+    .home-text h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .home-text p {
+        font-size: 14px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .home-text br {
+        display: none;
+    }
+
+    .home img {
+        width: 300px;
+        margin: 0;
+    }
+    /* home end */
+
+    /* about start */
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-container img {
+        width: 300px;
+        height: auto;
+    }
+
+    .about-text {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .about-text h1 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 13px;
+        width: 330px;
+    }
+    /* About end */
+
+    /* Learning */
+    .value {
+        padding-top: 60px;
+        height: 315vh;
+    }
+
+    .core h1 {
+        font-size: 25px;
+        padding: 0 25px 0 25px;
+    }
+
+    .core-flex {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .core-container p {
+        font-size: 18px;
+    }
+
+    .learning-flex {
+        flex-direction: column;
+    }
+
+    .learning-container img {
+        width: 270px;
+    }
+    /* Learning end */
+
+    /* Testimonial */
+    .testimonial {
+        height: 260vh;
+    }
+
+    .testimonial-text {
+        padding: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .testimonial-text h1 {
+        font-size: 40px;
+    }
+
+    .testimonial-text p {
+        font-size: 15px;
+        padding: 0 20px 0 20px;
+        padding-top: 10px;
+    }
+
+    .testimonial-flex {
+        flex-direction: column;
+    }
+
+    .testimonial-comment {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .testimonial-user img {
+        width: 60px;
+    }
+    /* testimonial end */
+
+    /* footer start */
+    .footer-container {
+        flex-direction: column;
+        height: 140vh;
+        padding-top: 40px;
+    }
+
+    .tentang-kami {
+        text-align: center;
+        margin: auto;
+    }
+
+    .tentang-kami p {
+        margin-bottom: 30px;
+    }
+
+    .tentang-kami-icon {
+        font-size: 22px;
+        gap: 30px;
+    }
+
+    .layanan-kami,
+    .Halaman-website {
+        text-align: center;
+        margin: auto;
+    }
+
+    .Kirim-kami {
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer-textgi {
+        padding-bottom: 20px;
+        font-size: 13px;
+        padding-top: 40px;
+    }
+}
