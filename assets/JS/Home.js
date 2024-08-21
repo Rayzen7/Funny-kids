@@ -1,3 +1,4 @@
+// Navbar
 document.addEventListener("DOMContentLoaded", function() {
     let ul = document.querySelector('.ul');
     let btn = document.querySelector('.btn-container');
