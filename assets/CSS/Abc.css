@@ -1,0 +1,69 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Abc {
+    background-image: url(../Image/Siapa-saya/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+}
+
+.Abc-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    gap: 10px;
+}
+
+.Abc-container img {
+    width: 110px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 30px;
+    height: auto;
+}
+
+.Abc-container .c {
+    width: 90px;
+}
+
+.Abc-container .p {
+    width: 90px;
+}
+
+/* Hovering */
+.Abc img:hover {
+    transform: scale(80%);
+    opacity: 85%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .Abc {
+        height: auto;
+        padding: 40px;
+    }
+
+    .Abc-container {
+        padding-top: 100px;
+    }
+
+    .Abc img {
+        width: 100px;
+        margin: 0 10px;
+    }
+
+    .Abc-container .c {
+        width: 80px;
+    }
+
+    .Abc-container .p {
+        width: 90px;
+    }
+}
