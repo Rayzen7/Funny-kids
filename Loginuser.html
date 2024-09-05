@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/CSS/Loginuser.css">
+</head>
+<body>
+    <section class="login">
+        <div class="login-container">
+            <div class="header">
+                <h1>Masuk Akun</h1>
+                <p>Tidak ada akun? <span>Buat akun</span></p>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Nama Akun" id="username">
+                <input type="password" placeholder="Kata Sandi" id="password"> 
+                <div class="remember">                        
+                    <div class="remember-container">
+                        <input type="checkbox">
+                        <p class="text">Ingatkan saya</p>
+                    </div>
+                    <p class="text-forget">Lupa Sandi?</p>
+                </div>
+            </div>
+            <p id="errorMessage" style="color: red; display: none;">Username atau Kata Sandi salah!</p>
+            <img src="/assets/Image/Btn/Masuk.png" id="loginButton" onclick="login()">
+        </div>
+    </section>
+    <script src="/assets/JS/Loginuser.js"></script>
+</body>
+</html>
