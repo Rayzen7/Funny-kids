@@ -104,3 +104,89 @@ export const audioAbjad = [
         audio: '/assets/audio/Abjad/Z.mp3'
     }
 ];
+
+export const Angka = [
+    {
+        id: 1,
+        audio: '/assets/audio/Angka/1.mp3'
+    },
+    {
+        id: 2,
+        audio: '/assets/audio/Angka/2.mp3'
+    },
+    {
+        id: 3,
+        audio: '/assets/audio/Angka/3.mp3'
+    },
+    {
+        id: 4,
+        audio: '/assets/audio/Angka/4.mp3'
+    },
+    {
+        id: 5,
+        audio: '/assets/audio/Angka/5.mp3'
+    },
+    {
+        id: 6,
+        audio: '/assets/audio/Angka/6.mp3'
+    },
+    {
+        id: 7,
+        audio: '/assets/audio/Angka/7.mp3'
+    },
+    {
+        id: 8,
+        audio: '/assets/audio/Angka/8.mp3'
+    },
+    {
+        id: 9,
+        audio: '/assets/audio/Angka/9.mp3'
+    },
+    {
+        id: 10,
+        audio: '/assets/audio/Angka/10.mp3'
+    },
+];
+
+export const Bentuk = [
+    {
+        id: 1,
+        audio: '/assets/audio/Bentuk/lingkaran.mp3'
+    },
+    {
+        id: 2,
+        audio: "/assets/audio/Bentuk/persegi.mp3"
+    },
+    {
+        id: 3,
+        audio: "/assets/audio/Bentuk/persegi-panjang.mp3"
+    },
+    {
+        id: 4,
+        audio: "/assets/audio/Bentuk/segitiga.mp3"
+    },
+    {
+        id: 5,
+        audio: "/assets/audio/Bentuk/trapesium.mp3"
+    },
+    {
+        id: 6,
+        audio: "/assets/audio/Bentuk/segi-lima.mp3"
+    },
+    {
+        id: 7,
+        audio: "/assets/audio/Bentuk/belah-ketupat.mp3"
+    },
+    {
+        id: 8,
+        audio: "/assets/audio/Bentuk/oval.mp3"
+    },
+    {
+        id: 9,
+        audio: "/assets/audio/Bentuk/layang-layang.mp3"
+    },
+    {
+        id: 10,
+        audio: "/assets/audio/Bentuk/jajar-genjang.mp3"
+    }
+];
