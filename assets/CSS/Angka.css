@@ -68,7 +68,8 @@
 }
 
 /* Hovering */
-.angka-container img:hover {
+.angka-container img:hover,
+.navbar i:hover {
     transform: scale(80%);
     opacity: 85%;
 }
