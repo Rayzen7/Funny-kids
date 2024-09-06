@@ -55,8 +55,9 @@ body {
     display: none;
 }
 
-.navbar-container h1 {
-    font-size: 22px;
+.navbar-container img {
+    width: 170px;
+    height: auto;
 }
 
 .navbar-container ul {
@@ -577,7 +578,7 @@ body {
 
     /* Testimonial */
     .testimonial {
-        height: 260vh;
+        height: 290vh;
     }
 
     .testimonial-text {
@@ -587,7 +588,7 @@ body {
     }
 
     .testimonial-text h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .testimonial-text p {
@@ -598,15 +599,22 @@ body {
 
     .testimonial-flex {
         flex-direction: column;
+        display: flex;
+        gap: 50px;
     }
 
     .testimonial-comment {
         width: 300px;
+        height: 520px;
         padding: 20px;
     }
 
     .testimonial-user img {
         width: 60px;
+    }
+
+    .testimonial-user-text h1 {
+        font-size: 20px;
     }
     /* testimonial end */
 
@@ -642,9 +650,9 @@ body {
         margin: auto;
     }
 
-    .footer-textgi {
+    .footer-text {
         padding-bottom: 20px;
-        font-size: 13px;
+        font-size: 9px;
         padding-top: 40px;
     }
 }

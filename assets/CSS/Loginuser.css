@@ -111,6 +111,7 @@
     padding-bottom: 20px;
 }
 
+/* hovering */
 .login-container img:hover {
     transform: scale(80%);
     opacity: 0.8;
@@ -118,6 +119,36 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
     .login-container {
-        transform: scale(50%);
+        width: 300px;
+        height: 450px;
+    }
+
+    .header h1 {
+        font-size: 27px;
+    }
+
+    .header p {
+        font-size: 14px;
+    }
+
+    .input input {
+        width: 260px;
+    }
+
+    .remember {
+        width: 260px;
+    }
+
+    .remember-container input {
+        width: 20px;
+    }
+
+    .remember-container p,
+    .remember p {
+        font-size: 12px;
+    }
+
+    .login-container img {
+        width: 100px;
     }
 }

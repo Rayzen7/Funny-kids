@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     audio.muted = true;
     song.muted = true;
-    song.volume = 0.5;
+    song.volume = 0.4;
 
     document.addEventListener('click', function() {
         audio.muted = false;
