@@ -200,9 +200,9 @@ export const komunitas = [
     },
     {
         id: 2,
-        img: "/assets/Image/Komunitas/sayang-anak.png",
-        head: "Sayang Anak",
-        paragaph: "Setiap Anak adalah Bintang"
+        img: "/assets/Image/Komunitas/belajar-seru.png  ",
+        head: "Belajar Seru",
+        paragaph: "Temukan serunya belajar setiap hari "
     },
     {
         id: 3,
