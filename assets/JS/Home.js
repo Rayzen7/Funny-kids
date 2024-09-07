@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
         komunitasList.appendChild(komunitasFlexContainer);
 
         btnImg.addEventListener('click', () => {
-            window.location.href = `../Layout/Isi-Komunitas.html/id:${item.id}`;
+            window.location.href = `/Layout/Isi-Komunitas.html?id=${item.id}`;
         });
     });
 });
