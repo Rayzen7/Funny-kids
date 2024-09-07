@@ -190,3 +190,42 @@ export const Bentuk = [
         audio: "/assets/audio/Bentuk/jajar-genjang.mp3"
     }
 ];
+
+export const komunitas = [
+    {
+        id: 1,
+        img: "/assets/Image/Komunitas/sayang-anak.png",
+        head: "Sayang Anak",
+        paragaph: "Setiap Anak adalah Bintang"
+    },
+    {
+        id: 2,
+        img: "/assets/Image/Komunitas/sayang-anak.png",
+        head: "Sayang Anak",
+        paragaph: "Setiap Anak adalah Bintang"
+    },
+    {
+        id: 3,
+        img: "/assets/Image/Komunitas/sayang-anak.png",
+        head: "Sayang Anak",
+        paragaph: "Setiap Anak adalah Bintang"
+    },
+    {
+        id: 4,
+        img: "/assets/Image/Komunitas/sayang-anak.png",
+        head: "Sayang Anak",
+        paragaph: "Setiap Anak adalah Bintang"
+    },
+    {
+        id: 5,
+        img: "/assets/Image/Komunitas/sayang-anak.png",
+        head: "Sayang Anak",
+        paragaph: "Setiap Anak adalah Bintang"
+    },
+    {
+        id: 6,
+        img: "/assets/Image/Komunitas/sayang-anak.png",
+        head: "Sayang Anak",
+        paragaph: "Setiap Anak adalah Bintang"
+    },
+];
