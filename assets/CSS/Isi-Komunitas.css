@@ -236,7 +236,7 @@
     .chat-header img {
         width: 50px;
         margin-bottom: 0;
-        margin-left: 20px;
+        
     }
 
     .chat-header-text {
@@ -250,7 +250,7 @@
     }
 
     .chat-header-text p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .chat-header-container {
@@ -311,6 +311,7 @@
         bottom: -17%;
         border-radius: 0;
         padding-left: 30px;
+        height: 90px;
     }
 
     .input i {
