@@ -6,5 +6,5 @@ Dunia Bermain, Dunia Belajar.
 *https://funnykids-user.vercel.app/Loginuser.html*
 
 # Penjelasan Alur
-<img src:"/Mockup/Masuk.png" width:"200"></img>
+<img src="/Mockup/Masuk.png" width="200"></img>
 1. Pada halaman Masuk, user harus memasukkan username dan password supaya bisa masuk ke dalam website. Untuk masuk ke dalam website, pengguna harus memasukkan username yaitu "user" dan password yaitu "123" setelah itu klik "Masuk".
