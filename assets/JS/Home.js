@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Mapping
+// Community Mapping
 window.addEventListener('DOMContentLoaded', () => {
     const komunitasList = document.getElementById('komunitas-list');
 

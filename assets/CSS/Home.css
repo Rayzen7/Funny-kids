@@ -263,7 +263,8 @@ body {
 }
 
 .komunitas-flex {
-    overflow-x: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
     white-space: nowrap;
     display: flex;
     justify-content: center;
@@ -283,6 +284,7 @@ body {
 }
 
 .komunitas-container {
+    scroll-snap-align: center;
     background-color: white;
     width: 350px;
     height: 400px;
