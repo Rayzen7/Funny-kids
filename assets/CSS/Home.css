@@ -224,17 +224,23 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: all ease-in-out 0.3s;
 }
 
 .learning-container img {
     width: 320px;
     height: auto;
+    transition: all ease-in-out 0.5s;
 }
 
 .learning-container p {
     font-size: 35px;
     font-weight: 600;
+}
+
+/* hovering */
+.learning-container img:hover {
+    transform: scale(90%);
+    opacity: 0.8;
 }
 
 .komunitas h1 {
