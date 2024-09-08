@@ -214,13 +214,13 @@ export const komunitas = [
         paragaph: "Temukan serunya belajar setiap hari ",
         corla: "/assets/Image/Komunitas/isi-komunitas/bunda-corla.png",
         corlaName: "Ibu Nina",
-        corlaChat: "Menurut saya menjaga perasaan anak dalam pembelajaran adalah hal yang penting.",
+        corlaChat: "Menurut saya menjaga perasaan anak dalam pembelajaran adalah hal yang penting. Karena anak adalah tanggung jawab kita",
         azka: "/assets/Image/Komunitas/isi-komunitas/mama-azka.png",
         azkaName: "Umi Rizka",
         azkaChat: "Ada pula dengan kenyamanan pada lingkungan sekitar pada anak- anak, mereka cenderung lebih mudah untuk hilang fokusnya",
         anda: "/assets/Image/Komunitas/isi-komunitas/anda.png",
         andaName: "Anda",
-        andaChat: "namun tidak hanya dari lingkungan sekitar bisa juga masalah yang di hadapi anak"
+        andaChat: "namun tidak hanya dari lingkungan sekitar bisa juga masalah yang di hadapi anak mulai dari kepribadian hingga ke lingkungannya"
     },
     {
         id: 3,
@@ -244,13 +244,13 @@ export const komunitas = [
         paragaph: "Belajar tanpa batas dengan orang tua",
         corla: "/assets/Image/Komunitas/isi-komunitas/bunda-corla.png",
         corlaName: "Ibu Nina",
-        corlaChat: "Menurut saya menjaga perasaan anak dalam pembelajaran adalah hal yang penting.",
+        corlaChat: "Menurut saya menjaga perasaan anak dalam pembelajaran adalah hal yang penting. Karena anak adalah tanggung jawab kita",
         azka: "/assets/Image/Komunitas/isi-komunitas/mama-azka.png",
         azkaName: "Umi Rizka",
         azkaChat: "Ada pula dengan kenyamanan pada lingkungan sekitar pada anak- anak, mereka cenderung lebih mudah untuk hilang fokusnya",
         anda: "/assets/Image/Komunitas/isi-komunitas/anda.png",
         andaName: "Anda",
-        andaChat: "namun tidak hanya dari lingkungan sekitar bisa juga masalah yang di hadapi anak"
+        andaChat: "namun tidak hanya dari lingkungan sekitar bisa juga masalah yang di hadapi anak mulai dari kepribadian hingga ke lingkungannya"
     },
     {
         id: 5,
@@ -274,12 +274,12 @@ export const komunitas = [
         paragaph: "Berbagai tips belajar dengan si kecil",
         corla: "/assets/Image/Komunitas/isi-komunitas/bunda-corla.png",
         corlaName: "Ibu Nina",
-        corlaChat: "Menurut saya menjaga perasaan anak dalam pembelajaran adalah hal yang penting.",
+        corlaChat: "Menurut saya menjaga perasaan anak dalam pembelajaran adalah hal yang penting. Karena anak adalah tanggung jawab kita",
         azka: "/assets/Image/Komunitas/isi-komunitas/mama-azka.png",
         azkaName: "Umi Rizka",
         azkaChat: "Ada pula dengan kenyamanan pada lingkungan sekitar pada anak- anak, mereka cenderung lebih mudah untuk hilang fokusnya",
         anda: "/assets/Image/Komunitas/isi-komunitas/anda.png",
         andaName: "Anda",
-        andaChat: "namun tidak hanya dari lingkungan sekitar bisa juga masalah yang di hadapi anak"
+        andaChat: "namun tidak hanya dari lingkungan sekitar bisa juga masalah yang di hadapi anak mulai dari kepribadian hingga ke lingkungannya"
     },
 ];
