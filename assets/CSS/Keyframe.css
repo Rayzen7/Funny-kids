@@ -1,0 +1,69 @@
+@keyframes bounce {
+    0% {
+        transform: translateY(3%);
+    }
+    25% {
+        transform: translateY(-3%);
+    }
+    50% {
+        transform: translateY(3%);
+    }
+    75% {
+        transform: translateY(-3%);
+    }
+    100% {
+        transform: translateY(3%);
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(5%);
+    }
+    25% {
+        transform: translateY(-5%);
+    }
+    50% {
+        transform: translateY(5%);
+    }
+    75% {
+        transform: translateY(-5%);
+    }
+    100% {
+        transform: translateY(5%);
+    }
+}
+
+/* learning */
+.angka-container,
+.bentuk-container,
+.Abc-container,
+.login-container {
+    animation: infinite ease-in-out 10s bounce;
+}
+
+/* home */
+.core-container,
+.learning-container,
+.komunitas-flex {
+    animation: infinite 9s bounce2;
+}
+
+.learning,
+.about-container,
+.core, 
+.komunitas,
+.testimonial-flex {
+    opacity: 0;
+    transform: translateY(15%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+.learning.active,
+.about-container.active,
+.core.active,
+.komunitas.active,
+.testimonial-flex.active {
+    opacity: 1;
+    transform: translateY(0);
+  }

@@ -49,3 +49,65 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// fade 
+function onScroll() {
+    const elements = document.querySelectorAll('.learning');
+    const elementsHome = document.querySelectorAll('.about-container');
+    const elementsCore = document.querySelectorAll('.core');
+    const elementsKomunitas = document.querySelectorAll('.komunitas');
+    const elementsTestimonial = document.querySelectorAll('.testimonial-flex');
+    const windowHeight = window.innerHeight;
+
+    elements.forEach((el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      
+      if (elementTop < windowHeight - 100) { 
+        el.classList.add('active');  
+      } else {
+        el.classList.remove('active'); 
+      }
+    });
+
+    elementsHome.forEach((el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      
+      if (elementTop < windowHeight - 100) { 
+        el.classList.add('active');  
+      } else {
+        el.classList.remove('active'); 
+      }
+    });
+
+    elementsCore.forEach((el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      
+      if (elementTop < windowHeight - 100) { 
+        el.classList.add('active');  
+      } else {
+        el.classList.remove('active'); 
+      }
+    });
+
+    elementsKomunitas.forEach((el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      
+      if (elementTop < windowHeight - 100) { 
+        el.classList.add('active');  
+      } else {
+        el.classList.remove('active'); 
+      }
+    });
+
+    elementsTestimonial.forEach((el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      
+      if (elementTop < windowHeight - 100) { 
+        el.classList.add('active');  
+      } else {
+        el.classList.remove('active'); 
+      }
+    });
+  }
+
+  window.addEventListener('scroll', onScroll);
